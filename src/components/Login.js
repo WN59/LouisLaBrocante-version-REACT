@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Register from './Register';
+import Home from './Website/Home';
 import './Login.css';
 
 function Login() {
@@ -13,6 +14,8 @@ function Login() {
               <input type="submit" name="" value="Login"></input>
               
               <NavLink className="link" to="/register">Register</NavLink>
+              <br></br>
+              <NavLink className="link" to="/Home">Home</NavLink>
               
           </form>
       </div>
