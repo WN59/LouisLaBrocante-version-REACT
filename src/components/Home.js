@@ -23,7 +23,7 @@ function Home(props) {
                             <div className="product-brand">{product.brand}</div>
                             <div className="product-price">{product.price} €</div>                      
                           </div>
-                        </li>
+                      </li>
                  )}
           </ul>  
   );

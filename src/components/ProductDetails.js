@@ -6,7 +6,7 @@ import './Home.css';
 
 function ProductDetails(props) {
 
- 
+  const product = data.products.find(x => x.id === props.match.params.id)
 
   return (
 
@@ -18,7 +18,11 @@ function ProductDetails(props) {
 
 
         <div>
-            <h1>{this.props.match.params.title}</h1>  
+            <h1>{product.name}</h1>  
+            <img className="product-details-image" src={product.image} />
+            <h1 className="product-brand">{product.brand}</h1>
+            <h1 className="product-price">{product.price} €</h1>
+            <button className="btn btn-warning"> Ajouter au panier </button>
         </div>
         
     </div>
