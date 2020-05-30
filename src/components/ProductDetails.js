@@ -22,6 +22,7 @@ function ProductDetails(props) {
             <img className="product-details-image" src={product.image} />
             <h1 className="product-brand">{product.brand}</h1>
             <h1 className="product-price">{product.price} €</h1>
+            <p className="product-details"> {product.desc}</p>
             <button className="btn btn-warning"> Ajouter au panier </button>
         </div>
         
