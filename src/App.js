@@ -1,9 +1,7 @@
 import React from 'react';
-import Navbar from './components/Navbar';
 import Home from './components/Home';
 import ProductDetails from './components/ProductDetails';
-import data from './data';
-import {BrowserRouter, Route, Link} from 'react-router-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 
 
@@ -15,8 +13,7 @@ function App() {
 
             <div> 
 
-              <Navbar />
-
+        
                   <div>
                       <main className="main">
                         <div className="content">
